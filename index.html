@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./styles/slick.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta
+      name="description"
+      content="Компания 'Далеко и Близко' предлагает уникальные туристические поездки по всему миру с возможностью онлайн-бронирования. Откройте для себя новые направления и путешествуйте легко!"
+    />
+    <title>Далеко и близко</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contacts">
+        <div class="container">
+          <div class="header__logo-block">
+            <a href="/" class="header__logo"></a>
+            <p class="header__logo-description">
+              Профессионализм,&nbsp;который<br />заслужил доверие
+            </p>
+          </div>
+          <div class="header__social">
+            <a href="http://wa.me/79950902613" target="_blank"></a>
+            <a href="https://t.me/dibtours" target="_blank"></a>
+            <a href="https://vk.com/dibtours" target="_blank"></a>
+          </div>
+          <div class="header__number">
+            <a href="tel:+79950902613" class="header__tel"
+              >+7&nbsp;995&nbsp;090&#8209;26&#8209;13</a
+            >
+            <button class="header__feedback-btn">обратный&nbsp;звонок</button>
+          </div>
+          <button class="burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+          <div class="mobile-logo-section">
+            <a href="/" class="header__logo"></a>
+            <button class="close-nav">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <ul class="header__nav-list">
+            <li><a href="#search-tour">Поиск тура</a></li>
+            <li><a href="#cruises">Круизы</a></li>
+            <li><a href="/stocks.html">Акции по странам</a></li>
+            <li class="services-item">
+              <div class="services-btn">Услуги</div>
+              <ul class="services-list">
+                <li><a href="#book-tour">Заказать тур</a></li>
+                <li><a href="/services.html">Доп.услуги</a></li>
+                <li><a href="/visas.html">Визы</a></li>
+              </ul>
+            </li>
+            <li class="services-mobile-item">
+              <div class="services-btn">Услуги</div>
+              <ul class="services-mobile-list">
+                <li><a href="#book-tour">Заказать тур</a></li>
+                <li><a href="/services.html">Доп.услуги</a></li>
+                <li><a href="/visas.html">Визы</a></li>
+              </ul>
+            </li>
+            <li><a href="/blog.html">Блог</a></li>
+            <li><a href="#feedback">Отзывы</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#footer">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="widget">
+        <div class="bg-slider">
+          <div>
+            <img src="./images/background/1.webp" alt="море" />
+          </div>
+          <div>
+            <img src="./images/background/2.webp" alt="горы" />
+          </div>
+          <div>
+            <img src="./images/background/3.webp" alt="остров" />
+          </div>
+          <div>
+            <img src="./images/background/4.webp" alt="горы" />
+          </div>
+          <div>
+            <img src="./images/background/5.webp" alt="цветы" />
+          </div>
+          <div>
+            <img src="./images/background/6.webp" alt="горы" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="widget__text">
+            <h1 class="widget__title" id="search-tour">
+              Туры по всему миру, <span>далеко и близко: </span>Россия, Турция,
+              Египет, ОАЭ, Таиланд, Мальдивы и не только!
+            </h1>
+            <h2 class="widget__subtitle">
+              Удобное бронирование онлайн, не выходя из дома!
+            </h2>
+          </div>
+        </div>
+      </section>
+      <!-- widget -->
+      <div class="container">
+        <div class="widget-search">
+          <div class="tv-search-form tv-moduleid-9967481"></div>
+          <script
+            type="text/javascript"
+            src="//tourvisor.ru/module/init.js"
+          ></script>
+        </div>
+      </div>
+      <section class="widget-cruises" id="cruises">
+        <h2 class="widget-cruises__title">Поиск круизов</h2>
+        <div class="cruises">
+          <!-- <div id="ces"></div> -->
+          <div
+            class="infoflotWidget"
+            data-id="YTo0OntzOjI6IklEIjtzOjQ6IjMyNjIiO3M6NDoiVVNFUiI7czoyNDoiWkdsaWRHOTFjbk5BZVdGdVpHVjRMbkoxIjtzOjY6IlJBTkRPTSI7czo4OiJjY2U5M2liMSI7czoxNToiSU5GT0ZMT1QtQVBJS0VZIjtzOjQwOiI3OTMwZWI4YjAwODlhNzA4ZGMwNzA4OGM0YmVkOGRlNzYzZGI2Yjk0Ijt9"
+            data-index="1"
+          ></div>
+          <script async>
+            (function (d, w) {
+              var h = d.getElementsByTagName('script')[0];
+              s = d.createElement('script');
+              s.src =
+                'https://bitrix.infoflot.com/local/templates/infoflot/frontend/js/infoflotIframe.js';
+              s.async = !0;
+              s.onload = function () {
+                w.createInfoflotWidget(
+                  'https://bitrix.infoflot.com/rest/api/search.filter/',
+                  {
+                    key: 'YTo0OntzOjI6IklEIjtzOjQ6IjMyNjIiO3M6NDoiVVNFUiI7czoyNDoiWkdsaWRHOTFjbk5BZVdGdVpHVjRMbkoxIjtzOjY6IlJBTkRPTSI7czo4OiJjY2U5M2liMSI7czoxNToiSU5GT0ZMT1QtQVBJS0VZIjtzOjQwOiI3OTMwZWI4YjAwODlhNzA4ZGMwNzA4OGM0YmVkOGRlNzYzZGI2Yjk0Ijt9',
+                    referer: encodeURIComponent(location.href),
+                  },
+                );
+              };
+              h.parentNode.insertBefore(s, h);
+            })(document, window);
+          </script>
+        </div>
+      </section>
+      <section class="form__section" id="book-tour">
+        <div class="container">
+          <div class="form-block">
+            <h2 class="form-title">Бесплатный подбор тура за 2 часа</h2>
+            <form method="POST" class="form">
+              <input type="text" name="name" placeholder="Имя" required />
+              <input type="tel" name="tel" placeholder="Телефон" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Электронная почта"
+                required
+              />
+              <textarea
+                name="message"
+                class="send-text"
+                placeholder="Комментарий"
+                required
+              ></textarea>
+              <div class="send-form-block">
+                <button type="submit" class="form__btn">Отправить</button>
+                <p class="form__paragraph">
+                  Нажимая на кнопку, вы даете согласие, что ознакомлены с
+                  <a href="/privacy.html" class="privacy" target="_blank"
+                    >политикой конфиденциальности</a
+                  >
+                </p>
+              </div>
+            </form>
+            <span class="form__leaf"></span>
+            <span class="form__leaf"></span>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title">О нас</h2>
+          <ul class="about__list">
+            <li class="about__item">13 лет успешной работы</li>
+            <li class="about__item">Безопасность персональных данных</li>
+            <li class="about__item">Круглосуточная поддержка</li>
+            <li class="about__item">
+              Работаем только с надежными туроператорами
+            </li>
+            <li class="about__item">Бронирование Online</li>
+            <li class="about__item">Удобная коммуникация</li>
+          </ul>
+        </div>
+      </section>
+      <section class="feedback container" id="feedback">
+        <h2 class="feedback__title">Отзывы</h2>
+        <div class="feedback__gallery">
+          <div>
+            <div class="feedback__card">
+              <img
+                src="./images/feedback-1.webp"
+                alt="feedback"
+                class="feedback__img"
+              />
+              <div class="feedback__card-info">
+                <div>
+                  <h3 class="feedback__card-name">Ольга Иванова</h3>
+                  <p class="feedback__card-date">июль 2024</p>
+                </div>
+                <p class="feedback__card-text">
+                  Отлично отдохнули. Спасибо Вам большое! Очень понравилось!<br />
+                  Анимация для всех возрастов и предпочтений. Вечером шикарное
+                  шоу для детей. Территория огромная. Есть где погулять. И рыб и
+                  голубей покормить. Столовая тоже супер. Завтраки вкусные и для
+                  детей и для взрослых. До моря можно прогуляться, а можно
+                  проехать, трансфер есть от отеля. Рядом парк и Сочи парк.<br />
+                  Персонал и аниматоры огонь.<br />
+                  В общем.. я рекомендую! И дети мои тоже.<br />
+                  Сочи Парк отель 3* <br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feedback__card">
+              <img
+                src="./images/feedback-2.webp"
+                alt="feedback"
+                class="feedback__img"
+              />
+              <div class="feedback__card-info">
+                <div>
+                  <h3 class="feedback__card-name">Наталья и Павел К.</h3>
+                  <p class="feedback__card-date">сентябрь 2023</p>
+                </div>
+                <p class="feedback__card-text">
+                  В сентябре мы ездили отдыхать в Абхазию. Мы давно мечтали
+                  отдохнуть в этой замечательной стране . Наслышаны были о
+                  чудесной природе, гостеприимных местных жителях, тёплом море.
+                  Отель выбирали с учётом наших желаний, и по рекомендации.
+                  Выбор свой мы остановили на Гранд Отель Абхазия.<br />
+                  Отель расположен на самом берегу моря,до пляжа всего пара
+                  минут, есть бесплатные лежаки и зонтики, пляж галечный.Много
+                  свежей зелени, всегда есть фрукты, десерты, молочные продукты,
+                  каши, супы на выбор. Много столиков, приветливый персонал.
+                  Конечно Абхазии ещё нужно развиваться и восстанавливаться
+                  после войны с Грузией, её последствия видны до сих пор. Но не
+                  смотря на все трудности , это прекрасная страна. Отдых там
+                  запомнится только положительными эмоциями! Отель Гранд-отель
+                  Абхазия 3*
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feedback__card">
+              <img
+                src="./images/feedback-3.webp"
+                alt="feedback"
+                class="feedback__img"
+              />
+              <div class="feedback__card-info">
+                <div>
+                  <h3 class="feedback__card-name">Наталья П.</h3>
+                  <p class="feedback__card-date">май 2024</p>
+                </div>
+                <p class="feedback__card-text">
+                  Выражаем огромную благодарность от всей нашей большой компании
+                  Кате за организацию тура в пансионат Бургас в городе Сочи!
+                  Отличное расположение, пансионат расположен неподалёку от
+                  аэропорта, что было для нас важно, мы были в поездке с
+                  маленькими детьми. Пансионат очень хороший, везде чистота и
+                  порядок, система все включёно, прямо как в Турции) большой
+                  выбор блюд и напитков, перекусов,все очень вкусно! Для детей
+                  есть детское кафе Ивушка, детская комната внутри пансионата,
+                  отличная детская площадка на территории пансионата, территория
+                  большая, много зелени, пляж свой, по вечерам живая музыка.
+                  Наша поездка была в мае, поэтому нам удалось купить тур по
+                  отличной цене! Нам и детям всё очень понравилось! Обязательно
+                  вернёмся снова!!!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feedback__card">
+              <img
+                src="./images/feedback-4.webp"
+                alt="feedback"
+                class="feedback__img"
+              />
+              <div class="feedback__card-info">
+                <div>
+                  <h3 class="feedback__card-name">Наталия П.</h3>
+                  <p class="feedback__card-date">май 2023</p>
+                </div>
+                <p class="feedback__card-text">
+                  Дорогая Катя, большое спасибо за эту чудесную поездку! Это
+                  была моя первая поездка на Кавказ (и точно не последняя), Катя
+                  помогла найти отличную новую гостиницу в Ессентуках -
+                  "Предгорье", написала в отель и попросила для меня номер с
+                  балконом, как я и хотела. Гостиница с новым ремонтом, мебель,
+                  халат, несколько полотенец,всё очень высокого качества!!!
+                  Рядом,в пешей доступности,бизнес центр КМВ, где отличная
+                  круглосуточная столовая, со вкусной едой и приемлемыми
+                  ценами.<br />
+                  Также, Катя по моей просьбе организовала шикарную экскурсию в
+                  горы,в урочище Джилы Су, виды волшебные, это просто любовь с
+                  первого взгляда! Катя, ещё раз огромное сердечное спасибо за
+                  чуткость, внимательность к запросам и деталям при организации
+                  тура!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="feedback__card">
+              <img
+                src="./images/feedback-5.webp"
+                alt="feedback"
+                class="feedback__img"
+              />
+              <div class="feedback__card-info">
+                <div>
+                  <h3 class="feedback__card-name">Мария Семенова</h3>
+                  <p class="feedback__card-date">октябрь 2024</p>
+                </div>
+                <p class="feedback__card-text">
+                  Ну вот и закончился наш отпуск. Мы отлично провели время,
+                  насытились солнышком, морем, красивыми видами. 7 дней для нас
+                  определенно оказалось мало. Очень понравился отель, возможно
+                  даже вернулась бы сюда снова. Очень много плюсов, особенно для
+                  детей. (Спасибо нашему турагенту Екатерине🧡) Территория отеля
+                  огромная. Все очень ухожено красиво, стильно и уютно. Бары у
+                  каждого бассейна и на пляже. 4 ресторана.5 разных бассейнов.
+                  Аквапарк. Лагуна. Это прям огромный плюс. Вода очень теплая.
+                  Нет волн, когда сильный ветер. Мелко, для детей идеально. Еда
+                  своеобразная, нужно время чтобы привыкнуть.Люди.
+                  Замечательные. И не только в отеле. Везде. Практически все
+                  хорошо понимают на русском и говорят. Всегда спокойно можно
+                  было придти на пляж или к бассейну, и было много свободных
+                  лежаков. Египет, Хургада Отель Desert Rose 5*
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="popup__form-content">
+        <div class="popup__form-block">
+          <button class="close-popup">
+            <span></span>
+            <span></span>
+          </button>
+          <h2 class="popup__form-title form-title">заказать звонок</h2>
+          <form method="POST" class="form popup__form" id="popup__form">
+            <input type="text" name="name" placeholder="Имя" required />
+            <input type="tel" name="tel" placeholder="Телефон" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Электронная почта"
+              required
+            />
+            <textarea
+              name="message"
+              class="popup__send-text"
+              placeholder="Комментарий"
+              required
+            ></textarea>
+            <div class="popup-send-form-block send-form-block">
+              <button type="submit" class="popup-form__btn form__btn">
+                Отправить
+              </button>
+              <p class="popup-form__paragraph form__paragraph">
+                Нажимая на кнопку, вы даете согласие, что ознакомлены с
+                <a href="/privacy.html" class="privacy" target="_blank"
+                  >политикой конфиденциальности</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="form__message">
+        <div class="form__message-block">
+          <h2 class="form__message-title">Спасибо!</h2>
+          <p class="form__message-text">
+            Спасибо, что оставили заявку, мы с радостью скоро с<br />вами
+            свяжемся!
+          </p>
+          <a href="/" class="form__message-link">на главную</a>
+          <button class="message-close-popup">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <a
+        href="http://wa.me/79950902613"
+        class="fixed-whatsapp"
+        target="_blank"
+      ></a>
+      <span class="upward"></span>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__content">
+          <a href="/" class="footer__logo"></a>
+          <div class="header__social">
+            <a href="http://wa.me/79950902613" target="_blank"></a>
+            <a href="https://t.me/dibtours" target="_blank"></a>
+            <a href="https://vk.com/dibtours" target="_blank"></a>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li>
+                <a href="#search-tour">Поиск тура</a>
+              </li>
+              <li>
+                <a href="#book-tour">Заказать тур</a>
+              </li>
+              <li>
+                <a href="#cruises">Круизы</a>
+              </li>
+              <li>
+                <a href="/visas.html">Визы</a>
+              </li>
+              <li>
+                <a href="/stocks.html">Акции по странам</a>
+              </li>
+              <li>
+                <a href="/services.html">Доп.услуги</a>
+              </li>
+              <li>
+                <a href="/blog.html">Блог</a>
+              </li>
+              <li>
+                <a href="#about">О нас</a>
+              </li>
+              <li>
+                <a href="#feedback">Отзывы</a>
+              </li>
+              <li>
+                <a href="#footer">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__feedback-btn">обратный&nbsp;звонок</button>
+          <a href="tel:+79950902613" class="header__tel"
+            >+7&nbsp;995&nbsp;090&#8209;26&#8209;13</a
+          >
+          <div class="opening-hours">пн - птн<br />с 10:00 до 19:00</div>
+          <div class="footer__privacy">
+            <a href="/privacy.html" class="footer__privacy-link" target="_blank"
+              >Положение об обработке персональных данных</a
+            >
+            <p class="footer__text">
+              Информация на сайте не является публичной офертой и носит
+              исключительно информационный характер.<br />
+              ИНН 470901547098 ОГРН 324470400077667
+            </p>
+          </div>
+        </div>
+        <a href="https://nice-dev.ru/" class="nice-dev" target="_blank">
+          © Nice Dev Web-Studio 2020 -
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </a>
+      </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/jquery-2.2.0.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).on('ready', function () {
+        $('.bg-slider').slick({
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          speed: 2000,
+          fade: true,
+          arrows: false,
+          swipe: false,
+        });
+      });
+      $(document).on('ready', function () {
+        $('.feedback__gallery').slick({
+          speed: 700,
+          arrows: true,
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta
+      name="description"
+      content="Компания 'Далеко и Близко' предлагает уникальные туристические поездки по всему миру с возможностью онлайн-бронирования. Откройте для себя новые направления и путешествуйте легко!"
+    />
+    <title>Далеко и близко</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contacts">
+        <div class="container">
+          <div class="header__logo-block">
+            <a href="/" class="header__logo"></a>
+            <p class="header__logo-description">
+              Профессионализм,&nbsp;который<br />заслужил доверие
+            </p>
+          </div>
+          <div class="header__social">
+            <a href="http://wa.me/79950902613" target="_blank"></a>
+            <a href="https://t.me/dibtours" target="_blank"></a>
+            <a href="https://vk.com/dibtours" target="_blank"></a>
+          </div>
+          <div class="header__number">
+            <a href="tel:+79950902613" class="header__tel"
+              >+7&nbsp;995&nbsp;090&#8209;26&#8209;13</a
+            >
+            <button class="header__feedback-btn">обратный&nbsp;звонок</button>
+          </div>
+          <button class="burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+          <div class="mobile-logo-section">
+            <a href="/" class="header__logo"></a>
+            <button class="close-nav">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <ul class="header__nav-list">
+            <li><a href="/#search-tour">Поиск тура</a></li>
+            <li><a href="/#cruises">Круизы</a></li>
+            <li><a href="/stocks.html">Акции по странам</a></li>
+            <li class="services-item">
+              <div class="services-btn">Услуги</div>
+              <ul class="services-list">
+                <li><a href="/#book-tour">Заказать тур</a></li>
+                <li><a href="/services.html">Доп.услуги</a></li>
+                <li><a href="/visas.html">Визы</a></li>
+              </ul>
+            </li>
+            <li class="services-mobile-item">
+              <div class="services-btn">Услуги</div>
+              <ul class="services-mobile-list">
+                <li><a href="/#book-tour">Заказать тур</a></li>
+                <li><a href="/services.html">Доп.услуги</a></li>
+                <li><a href="/visas.html">Визы</a></li>
+              </ul>
+            </li>
+            <li><a href="/blog.html">Блог</a></li>
+            <li><a href="/#feedback">Отзывы</a></li>
+            <li><a href="/#about">О нас</a></li>
+            <li><a href="#footer">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="nav-link container">
+        <a href="/">Главная/</a>
+        <p>Акции по странам</p>
+      </section>
+      <section class="stocks container">
+        <div class="tv-country tv-moduleid-9974495"></div>
+        <script
+          type="text/javascript"
+          src="//tourvisor.ru/module/init.js"
+        ></script>
+      </section>
+      <div class="popup__form-content">
+        <div class="popup__form-block">
+          <button class="close-popup">
+            <span></span>
+            <span></span>
+          </button>
+          <h2 class="popup__form-title form-title">заказать звонок</h2>
+          <form method="POST" class="form popup__form" id="popup__form">
+            <input type="text" name="name" placeholder="Имя" required />
+            <input type="tel" name="tel" placeholder="Телефон" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Электронная почта"
+              required
+            />
+            <textarea
+              name="message"
+              class="popup__send-text"
+              placeholder="Комментарий"
+              required
+            ></textarea>
+            <div class="popup-send-form-block send-form-block">
+              <button type="submit" class="popup-form__btn form__btn">
+                Отправить
+              </button>
+              <p class="popup-form__paragraph form__paragraph">
+                Нажимая на кнопку, вы даете согласие, что ознакомлены с
+                <a href="/privacy.html" class="privacy" target="_blank"
+                  >политикой конфиденциальности</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="form__message">
+        <div class="form__message-block">
+          <h2 class="form__message-title">Спасибо!</h2>
+          <p class="form__message-text">
+            Спасибо, что оставили заявку, мы с радостью скоро с<br />вами
+            свяжемся!
+          </p>
+          <a href="/" class="form__message-link">на главную</a>
+          <button class="message-close-popup">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <a
+        href="http://wa.me/79950902613"
+        class="fixed-whatsapp"
+        target="_blank"
+      ></a>
+      <span class="upward"></span>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__content">
+          <a href="/" class="footer__logo"></a>
+          <div class="header__social">
+            <a href="http://wa.me/79950902613" target="_blank"></a>
+            <a href="https://t.me/dibtours" target="_blank"></a>
+            <a href="https://vk.com/dibtours" target="_blank"></a>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li>
+                <a href="/#search-tour">Поиск тура</a>
+              </li>
+              <li>
+                <a href="/#book-tour">Заказать тур</a>
+              </li>
+              <li>
+                <a href="/#cruises">Круизы</a>
+              </li>
+              <li>
+                <a href="/visas.html">Визы</a>
+              </li>
+              <li>
+                <a href="/stocks.html">Акции по странам</a>
+              </li>
+              <li>
+                <a href="/services.html">Доп.услуги</a>
+              </li>
+              <li>
+                <a href="/blog.html">Блог</a>
+              </li>
+              <li>
+                <a href="/#about">О нас</a>
+              </li>
+              <li>
+                <a href="/#feedback">Отзывы</a>
+              </li>
+              <li>
+                <a href="#footer">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__feedback-btn">обратный&nbsp;звонок</button>
+          <a href="tel:+79950902613" class="header__tel"
+            >+7&nbsp;995&nbsp;090&#8209;26&#8209;13</a
+          >
+          <div class="opening-hours">пн - птн<br />с 10:00 до 19:00</div>
+          <div class="footer__privacy">
+            <a href="/privacy.html" class="footer__privacy-link" target="_blank"
+              >Положение об обработке персональных данных</a
+            >
+            <p class="footer__text">
+              Информация на сайте не является публичной офертой и носит
+              исключительно информационный характер.<br />
+              ИНН 470901547098 ОГРН 324470400077667
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="https://nice-dev.ru/" class="nice-dev" target="_blank">
+        © Nice Dev Web-Studio 2020 -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </a>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
